@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COIL@UAB | Resultats de la primera trobada</title>
+  <style>
+    :root { --navy:#06366f; --blue:#1269a8; --teal:#008b8b; --green:#23723e; --lime:#dcefd9; --orange:#e87b12; --orange-pale:#fff3e4; --purple:#523188; --purple-pale:#f4edfc; --ink:#10243c; --muted:#587083; --line:#d9e4ea; --paper:#f6f9fb; }
+    * { box-sizing:border-box; } body { margin:0; color:var(--ink); font-family:Inter, Aptos, "Segoe UI", Arial, sans-serif; background:var(--paper); line-height:1.48; }
+    .wrap { width:min(1160px, calc(100% - 40px)); margin:auto; }
+    .hero { color:#fff; padding:64px 0 56px; background:linear-gradient(120deg,#06366f 0%,#075880 54%,#008b8b 100%); overflow:hidden; position:relative; }
+    .hero:after { content:""; width:390px; height:390px; border:2px solid rgba(255,255,255,.16); border-radius:50%; position:absolute; right:-95px; top:-145px; box-shadow:0 0 0 55px rgba(255,255,255,.04),0 0 0 110px rgba(255,255,255,.03); }
+    .eyebrow { margin:0 0 13px; color:#cfefdb; font-weight:800; text-transform:uppercase; letter-spacing:.08em; font-size:.78rem; }
+    h1 { position:relative; z-index:1; margin:0; max-width:780px; font-size:clamp(2.1rem,5vw,4.35rem); line-height:1.02; letter-spacing:-.045em; }
+    .lead { position:relative; z-index:1; max-width:770px; margin:20px 0 0; font-size:1.15rem; color:#e1f3f5; }
+    .chips { position:relative; z-index:1; display:flex; flex-wrap:wrap; gap:10px; margin-top:27px; } .chip { padding:8px 12px; border:1px solid rgba(255,255,255,.35); border-radius:999px; font-size:.88rem; }
+    main { padding:42px 0 54px; } section { margin-top:40px; } .section-title { margin:0 0 8px; font-size:1.75rem; letter-spacing:-.035em; } .section-intro { max-width:850px; margin:0 0 21px; color:var(--muted); }
+    .number { display:inline-grid; place-items:center; width:31px; height:31px; margin-right:9px; border-radius:50%; background:var(--navy); color:#fff; font-size:.9rem; vertical-align:3px; }
+    .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; } .card { background:white; border:1px solid var(--line); border-radius:15px; padding:20px; box-shadow:0 6px 18px rgba(16,36,60,.05); } .card h3 { margin:0 0 10px; font-size:1.07rem; line-height:1.2; } .icon { display:grid; place-items:center; width:43px; height:43px; margin-bottom:14px; border-radius:12px; color:#fff; font-size:1.25rem; font-weight:800; } ul { padding-left:18px; margin:0; } li+li { margin-top:7px; } .note { margin-top:16px; padding:11px 13px; border-radius:10px; font-weight:700; font-size:.91rem; }
+    .support .icon{background:var(--navy)} .support .note{background:#e8f1fb;color:var(--navy)} .training .icon{background:var(--blue)} .training .note{background:#e8f4fa;color:#075880}.work .icon{background:#4c8e43}.work .note{background:var(--lime);color:#285e32}.recognition .icon{background:var(--orange)}.recognition .note{background:var(--orange-pale);color:#a64c00}
+    .swot { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; } .swot .card { min-height:225px; border-top:5px solid; } .strength{border-top-color:var(--green)!important}.weakness{border-top-color:var(--orange)!important}.opportunity{border-top-color:var(--blue)!important}.threat{border-top-color:var(--purple)!important}.strength h3{color:var(--green)}.weakness h3{color:#bd5800}.opportunity h3{color:var(--navy)}.threat h3{color:var(--purple)}
+    .principles { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; } .principle { background:#fff; border-radius:15px; overflow:hidden; border:1px solid var(--line); } .principle .top { padding:18px 18px 10px; color:#fff; background:linear-gradient(135deg,var(--teal),var(--navy)); } .principle:nth-child(2) .top{background:linear-gradient(135deg,var(--blue),#5b9bd5)}.principle:nth-child(3) .top{background:linear-gradient(135deg,#3f8a41,#0f6a66)}.principle:nth-child(4) .top{background:linear-gradient(135deg,var(--orange),#d74d1a)}.principle h3{margin:0;font-size:1.04rem}.principle p{padding:17px 18px 20px;margin:0;color:#405a6e}
+    .framework { margin-top:18px; background:linear-gradient(110deg,#163d20,#23723e); color:#fff; border-radius:18px; padding:23px; display:grid; grid-template-columns:160px 1fr; gap:22px; align-items:center; }.framework h2{margin:0; font-size:1.6rem;line-height:1.05}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.25);border-radius:10px;overflow:hidden}.step{padding:15px;background:rgba(0,0,0,.09)}.step b{display:block;font-size:1.2rem;color:#d7f4d7}.step span{font-size:.92rem}
+    footer { padding:25px 0; color:#536c7d; font-size:.88rem; border-top:1px solid var(--line); }
+    @media(max-width:820px){.grid,.principles{grid-template-columns:repeat(2,1fr)}.framework{grid-template-columns:1fr}.steps{grid-template-columns:repeat(2,1fr)}}@media(max-width:540px){.wrap{width:min(100% - 28px,1160px)}.grid,.swot,.principles,.steps{grid-template-columns:1fr}.hero{padding:48px 0}.card{padding:17px}}
+  </style>
+</head>
+<body>
+  <header class="hero"><div class="wrap">
+    <p class="eyebrow">Grup d'InnovaciÃ³ Docent Â· InternacionalitzaciÃ³ inclusiva i sostenible</p>
+    <h1>Resultats de la primera trobada del GID COIL@UAB</h1>
+    <p class="lead">Una base compartida per dissenyar un model COIL viable, progressiu i amb identitat prÃ²pia a la UAB.</p>
+    <div class="chips"><span class="chip">26 de maig de 2026</span><span class="chip">SessiÃ³ participativa</span><span class="chip">Necessitats Â· DAFO Â· Principis</span></div>
+  </div></header>
+  <main class="wrap">
+    <section><h2 class="section-title"><span class="number">1</span>Mapa de necessitats</h2><p class="section-intro">QuÃ¨ cal perquÃ¨ un COIL sigui viable i sostenible a la UAB? El grup identifica quatre condicions complementÃ ries: estructura, capacitaciÃ³, temps i reconeixement.</p>
+      <div class="grid">
+        <article class="card support"><div class="icon">âŒ˜</div><h3>Suport institucional i tecnolÃ²gic</h3><ul><li>AccÃ©s institucional a les plataformes necessÃ ries.</li><li>Espai compartit â€”Â«COIL ConnectÂ»â€” per trobar partners.</li><li>Fitxes de professorat i assignatures per facilitar encaixos.</li></ul><p class="note">Trobar socis internacionals Ã©s una barrera d'entrada principal.</p></article>
+        <article class="card training"><div class="icon">â†—</div><h3>FormaciÃ³</h3><ul><li>FormaciÃ³ especÃ­fica per iniciar i dissenyar un COIL.</li><li>OrientaciÃ³ sobre dimensions, passos i viabilitat.</li><li>Exemples i bones prÃ ctiques d'altres universitats.</li></ul><p class="note">MÃ©s enllÃ  de les eines: cal orientaciÃ³ metodolÃ²gica i prÃ ctica.</p></article>
+        <article class="card work"><div class="icon">â—·</div><h3>CÃ rrega de treball</h3><ul><li>Estimar el temps real necessari.</li><li>Definir una escala assumible d'estudiants.</li><li>Planificar la dedicaciÃ³ docent.</li></ul><p class="note">ComenÃ§ar amb experiÃ¨ncies petites, progressives i realistes.</p></article>
+        <article class="card recognition"><div class="icon">âœ¦</div><h3>Reconeixement institucional</h3><ul><li>CoordinaciÃ³ institucional.</li><li>Materials compartits i suport metodolÃ²gic.</li><li>Visibilitat de les experiÃ¨ncies.</li></ul><p class="note">El COIL no pot dependre nomÃ©s de l'esforÃ§ individual.</p></article>
+      </div>
+    </section>
+    <section><h2 class="section-title"><span class="number">2</span>AnÃ lisi DAFO</h2><p class="section-intro">Factors interns i externs que condicionen el desplegament del COIL a la UAB.</p>
+      <div class="swot">
+        <article class="card strength"><h3>Fortaleses</h3><ul><li>Suport potencial de l'Ã€rea de Relacions Internacionals.</li><li>Diversitat disciplinÃ ria en un mateix campus.</li><li>Cultura oberta a metodologies innovadores.</li><li>Contactes internacionals del professorat i colÂ·laboracions existents.</li><li>ExperiÃ¨ncies consolidades, com Summer Schools.</li><li>Treball possible en catalÃ , castellÃ  i anglÃ¨s.</li></ul></article>
+        <article class="card weakness"><h3>Febleses</h3><ul><li>Oferta limitada d'assignatures en anglÃ¨s.</li><li>Rigidesa dels plans docents per integrar activitats compartides.</li><li>Manca d'un marc institucional que centralitzi recursos, experiÃ¨ncies, coordinaciÃ³ i reconeixement.</li></ul></article>
+        <article class="card opportunity"><h3>Oportunitats</h3><ul><li>El castellÃ  pot facilitar colÂ·laboracions amb AmÃ¨rica Llatina i, en alguns casos, amb els EUA.</li><li>Universitats properes amb experiÃ¨ncia COIL: fonts d'aprenentatge i possibles aliances.</li></ul></article>
+        <article class="card threat"><h3>Amenaces</h3><ul><li>En COIL extracurriculars, Ã©s difÃ­cil garantir la participaciÃ³ sostinguda de l'estudiantat.</li><li>La participaciÃ³ incerta pot afectar la planificaciÃ³ i la dedicaciÃ³ del professorat.</li></ul></article>
+      </div>
+    </section>
+    <section><h2 class="section-title"><span class="number">3</span>Principis del model COIL@UAB</h2><p class="section-intro">El model s'orienta a una internacionalitzaciÃ³ que genera aprenentatge compartit, no a la simple retransmissiÃ³ de classes.</p>
+      <div class="principles">
+        <article class="principle"><div class="top"><h3>CompromÃ­s de l'estudiantat</h3></div><p>Definir mecanismes per afavorir la participaciÃ³: carta de motivaciÃ³, llista de reserva i sistemes de selecciÃ³, especialment quan hi ha risc d'abandonament.</p></article>
+        <article class="principle"><div class="top"><h3>AvaluaciÃ³ per aprendre</h3></div><p>Incorporar instruments que recullin sistemÃ ticament la percepciÃ³ de l'estudiantat i permetin orientar el redisseny de futures experiÃ¨ncies.</p></article>
+        <article class="principle"><div class="top"><h3>CooperaciÃ³ amb el Sud Global</h3></div><p>Prioritzar colÂ·laboracions cooperatives amb universitats pÃºbliques i institucions del Sud Global, basades en l'equitat i el benefici mutu.</p></article>
+        <article class="principle"><div class="top"><h3>AllÃ² que no Ã©s un COIL</h3></div><p>No Ã©s limitar-se a retransmetre classes en lÃ­nia: requereix interacciÃ³ entre estudiants, treball colÂ·laboratiu i construcciÃ³ conjunta de coneixement.</p></article>
+      </div>
+      <div class="framework"><h2>Marc d'actuaciÃ³</h2><div class="steps"><div class="step"><b>01</b><span><strong>Prioritats</strong><br>Crear estructures de suport institucional.</span></div><div class="step"><b>02</b><span><strong>Progressivitat</strong><br>ComenÃ§ar petit, aprendre i escalar.</span></div><div class="step"><b>03</b><span><strong>Identitat</strong><br>Model coherent amb els valors UAB.</span></div><div class="step"><b>04</b><span><strong>ProcÃ©s</strong><br>Valorar la cocreaciÃ³ i l'aprenentatge compartit.</span></div></div></div>
+    </section>
+  </main>
+  <footer><div class="wrap">COIL@UAB Â· Resultats del grup focal Â· Aquesta sÃ­ntesi orienta el disseny de materials, protocols, pilots, avaluaciÃ³ i difusiÃ³ del GID.</div></footer>
+</body>
+</html>
+
