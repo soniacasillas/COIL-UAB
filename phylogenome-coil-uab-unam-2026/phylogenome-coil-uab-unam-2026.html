@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PhyloGenome COIL · UAB × UNAM · Octubre 2026</title>
+  <style>
+    :root { --green:#0e5a41; --dark:#073d32; --cream:#fff9ef; --pale:#eef1cb; --orange:#d7871a; --blue:#287da8; }
+    * { box-sizing:border-box; } body { margin:0; background:#e7e7e7; color:#263e32; font-family:Arial, sans-serif; }
+    .poster { width:min(1800px, 100%); margin:auto; background:var(--cream); overflow:hidden; }
+    .logos { height:185px; display:grid; grid-template-columns:repeat(3,1fr); align-items:center; background:#fffaf1; }
+    .logos > div { height:120px; display:flex; justify-content:center; align-items:center; border-right:3px solid #79916d; }
+    .logos > div:last-child { border:0; } .logos img { max-width:82%; max-height:120px; object-fit:contain; }
+    .identity { border-top:10px solid var(--green); min-height:195px; padding:28px 5.3%; display:flex; align-items:center; justify-content:space-between; background:#f7efdc; }
+    h1 { margin:0; color:var(--dark); font-size:58px; line-height:1; } .partner { margin:13px 0 0; color:#c5472d; font-weight:700; font-size:42px; }
+    .date { padding:18px 48px; border-radius:50px; color:white; background:var(--orange); font-size:28px; font-weight:700; white-space:nowrap; }
+    .hero { position:relative; line-height:0; } .hero img { display:block; width:100%; height:auto; }
+    .quote { position:absolute; left:0; right:0; bottom:28px; margin:0; color:#124d35; font-family:Georgia, serif; font-weight:700; font-size:28px; line-height:1.1; text-align:center; }
+    .intro { padding:54px 8%; background:var(--green); color:#fffaf0; text-align:center; font-size:28px; line-height:1.28; }
+    .basics { display:grid; grid-template-columns:repeat(5,1fr); background:var(--pale); padding:40px 0; }
+    .basic { min-height:375px; padding:0 20px; text-align:center; border-right:2px solid #789269; display:flex; flex-direction:column; align-items:center; }
+    .basic:last-child { border:0; } .basic img { width:100px; max-width:92%; height:100px; object-fit:contain; margin-bottom:21px; }
+    .basic h2 { margin:0 0 14px; color:#285d42; font-size:29px; } .basic p { margin:0; font-size:27px; line-height:1.15; }
+    .details { display:grid; grid-template-columns:1fr 1fr; gap:75px; padding:52px 5.3%; }
+    .details h2 { margin:0 0 28px; font-size:41px; } .todo h2 { color:#d67e19; } .why h2 { color:var(--blue); }
+    ul { padding:0; margin:0; list-style:none; } li { position:relative; padding-left:34px; margin:0 0 16px; font-size:25px; line-height:1.15; }
+    li::before { content:""; position:absolute; width:16px; height:16px; border-radius:50%; left:0; top:6px; } .todo li::before { background:#d67e19; } .why li::before { background:var(--blue); }
+    .footer { display:grid; grid-template-columns:1fr 1fr 1fr; background:var(--green); color:#fffaf1; padding:40px 4%; }
+    .foot { min-height:175px; padding:0 34px; border-right:2px solid #7ea281; } .foot:last-child { border:0; }
+    .foot h2 { margin:0 0 16px; color:#dbe99f; font-size:29px; } .foot p { margin:0; font-size:28px; font-weight:700; line-height:1.16; }
+    .foot .small { margin-top:19px; color:#fff2d0; font-size:19px; line-height:1.2; } .foot a { color:inherit; }
+    .apply { display:inline-block; width:100%; padding:18px 16px; border-radius:15px; background:var(--orange); color:#fffaf1; text-align:center; text-decoration:none; font-size:28px; font-weight:700; }
+    .deadline { margin-top:18px !important; color:#fff2a1; font-size:24px !important; }
+    .participa-logo { width:100%; max-width:440px; max-height:100px; object-fit:contain; object-position:left center; margin-top:17px; }
+    @media (max-width:800px) { .logos { height:115px; } .logos > div { height:75px; } .identity { padding:22px 5%; } h1 { font-size:38px; } .partner { font-size:24px; } .date { padding:16px 22px; font-size:20px; } .quote { font-size:23px; bottom:13px; } .intro { padding:30px 6%; font-size:21px; } .basics { grid-template-columns:1fr; padding:0; } .basic { min-height:auto; flex-direction:row; gap:18px; text-align:left; padding:24px; border:0; border-bottom:1px solid #789269; } .basic img { width:100px; height:100px; margin:0; } .basic h2 { font-size:21px; } .basic p { font-size:19px; } .details, .footer { grid-template-columns:1fr; gap:35px; } .details h2 { font-size:30px; } li { font-size:20px; } .foot { padding:0; min-height:0; border:0; } }
+  </style>
+</head>
+<body>
+  <main class="poster">
+    <header class="logos" aria-label="Institucions participants">
+      <div><img src="assets/logo-uab.png" alt="Facultat de Biociències, Universitat Autònoma de Barcelona"></div>
+      <div><img src="assets/logo-unam.png" alt="University of Namibia"></div>
+      <div><img src="assets/logo-coil.png" alt="PhyloGenome COIL"></div>
+    </header>
+
+    <section class="identity">
+      <div><h1>PhyloGenome COIL</h1><p class="partner">UAB × UNAM Edition</p></div>
+      <div class="date">5–30 D’OCTUBRE DE 2026</div>
+    </section>
+
+    <section class="hero">
+      <img src="assets/imatge-principal.png" alt="Estudiants de Barcelona i Namíbia col·laborant en biodiversitat">
+      <p class="quote">Different places, shared knowledge, common purpose</p>
+    </section>
+
+    <section class="intro">Basat en la metodologia COIL —<i>Collaborative Online International Learning</i>—, aquest taller connecta estudiants de la UAB i de la University of Namibia (UNAM) per explorar i co-crear coneixement per a la conservació de la biodiversitat.</section>
+
+    <section class="basics" aria-label="Informació bàsica">
+      <article class="basic"><img src="assets/icon1.png" alt=""><div><h2>4 SETMANES</h2><p>Aprenentatge col·laboratiu en línia</p></div></article>
+      <article class="basic"><img src="assets/icon2.png" alt=""><div><h2>EQUIPS MIXTOS</h2><p>Estudiants de totes dues universitats</p></div></article>
+      <article class="basic"><img src="assets/icon3.png" alt=""><div><h2>100% EN LÍNIA</h2><p>Sessions síncrones i asíncrones</p></div></article>
+      <article class="basic"><img src="assets/icon4.png" alt=""><div><h2>PRODUCTES FINALS</h2><p>Cartes PhyloGenome i materials divulgatius</p></div></article>
+      <article class="basic"><img src="assets/icon5.png" alt=""><div><h2>IMPACTE GLOBAL</h2><p>Coneixement per a la conservació de la biodiversitat</p></div></article>
+    </section>
+
+    <section class="details">
+      <article class="todo"><h2>QUÈ FAREM?</h2><ul><li>Explorarem diferents entorns naturals i les espècies que hi viuen</li><li>Investigarem la crisi de la biodiversitat i el paper fonamental de la genòmica</li><li>Crearem noves cartes pel joc PhyloGenome</li><li>Presentarem els recursos divulgatius generats</li></ul></article>
+      <article class="why"><h2>PER QUÈ PARTICIPAR-HI?</h2><ul><li>Experiència internacional sense mobilitat</li><li>Treball intercultural i perspectives globals</li><li>Biodiversitat, conservació i sostenibilitat</li><li>Comunicació científica i creativitat</li></ul></article>
+    </section>
+
+    <footer class="footer">
+      <section class="foot"><h2>ADREÇAT A</h2><p>Estudiants de grau i màster de la Facultat de Biociències</p><p class="small">+INFO: <a href="https://coil.omicsuab.org/" target="_blank">coil.omicsuab.org</a> / <a href="mailto:sonia.casillas@uab.cat">sonia.casillas@uab.cat</a></p></section>
+      <section class="foot"><h2>INSCRIPCIONS FINS AL 18 DE SETEMBRE</h2><a class="apply" href="https://forms.cloud.microsoft/e/Vu6WxvmJqx" target="_blank">INSCRIU-T’HI ARA</a><p class="small">Consulta les dates de les sessions síncrones al formulari</p></section>
+      <section class="foot"><h2>PARTICIPA BIOCIÈNCIES</h2><p>20 hores reconegudes</p><a href="https://sidciencies.uab.cat/biociencies/participa/" target="_blank"><img class="participa-logo" src="assets/logo-participa.png" alt="Participa Biociències UAB"></a></section>
+    </footer>
+  </main>
+</body>
+</html>
